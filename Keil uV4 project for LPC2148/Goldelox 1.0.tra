@@ -1,0 +1,28 @@
+*** Creating Trace Output File 'Goldelox 1.0.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"goldelox_core.o"'
+### List of Objects: adding '"goldelox_interface.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"graphics_objects.o"'
+### List of Objects: adding '"cpu_activity.o"'
+### List of Objects: adding '"desktop.o"'
+### List of Objects: adding '"statusbar.o"'
+### List of Objects: adding '"app_clock.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "goldelox_core.o" "goldelox_interface.o" "main.o" "graphics_objects.o" "cpu_activity.o" "desktop.o" "statusbar.o" "app_clock.o" 
+--strict --scatter "Goldelox 1.0.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Goldelox 1.map" -o "Goldelox 1.0.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Goldelox 1.0.axf'
+### ADS-LD Command File: 'Goldelox 1.0.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Goldelox 1.0.lnp', Handle=0x000003C0
+### Writing '.lnp' file
+### ADS-LD Command file 'Goldelox 1.0.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

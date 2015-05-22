@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "goldelox_core.o" "goldelox_interface.o" "main.o" "graphics_objects.o" "cpu_activity.o" "desktop.o" "statusbar.o" "app_clock.o" 
+--strict --scatter "Goldelox 1.0.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Goldelox 1.map" -o "Goldelox 1.0.axf"
